@@ -5,9 +5,10 @@ mod day3;
 mod day4;
 mod day5;
 mod day6;
+mod day7;
 
+use crate::day7::day7::do_it;
 use std::fs::read_to_string;
-use crate::day6::day6::do_it;
 
 fn main() {
     do_it()
